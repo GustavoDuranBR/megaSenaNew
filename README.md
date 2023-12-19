@@ -1,11 +1,13 @@
-# megaSenaNew
-Código que sorteia três combinações de números "palpites" para jogar na Mega-Sena
+<h1 align="center"> Palpite para Mega Sena </h1>
 
-Esse código realiza  o sorteio de 3 combinações de 6 números.
-O sorteio ocorre entre os numeros 1 até 61.
-Código escrito em python 3 .
-Aceito  ajuda para melhorar o código.
-Tenho apenas 1  mês de apredizado em Python e esse código foi apenas para colocar algumas coisas vistas nas aulas em prática.
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+## Descrição do projeto 
+
+Código que realiza sorteios de números "palpites" para jogar na Mega-Sena
+
+Esse código realiza  o sorteio com a quantidade de jogos que o usuário determina
+e exibe as combinações de 6 números.
 
 Prit do resultado do código:
 
