@@ -1,13 +1,13 @@
 import tkinter as tk
 from tkinter import Scrollbar
-from funcoesMegaSenaNew import gerar_palpite, on_frame_configure, exibir_palpite_gerado
+from funcoesMegaSenaNew import *
 
 
 class GeradorPalpitesMegaSena:
     def __init__(self, root):
         self.root = root
         self.root.title("Gerador de Palpites da Mega Sena")
-        self.root.geometry("400x300")  # Tamanho inicial da janela
+        self.root.geometry("400x320")  # Tamanho inicial da janela
 
         self.label_num_jogos = tk.Label(root, text="Quantos jogos você quer gerar?")
         self.label_num_jogos.pack()
