@@ -11,8 +11,7 @@ Prit do resultado do código:
 
    Palpite MEGA-SENA
 
-Os números da sorte são: 
-
+Os números da sorte são:
 [4, 32, 33, 42, 43, 45]
 
 Os números da sorte são: 
