@@ -1,14 +1,44 @@
-from funcoesMegaSenaNew import *
+import tkinter as tk
+from tkinter import Scrollbar
+from funcoesMegaSenaNew import gerar_palpite, on_frame_configure, exibir_palpite_gerado
 
-num_jogos = int(input('Quantos jogos você quer gerar? '))
+
+class GeradorPalpitesMegaSena:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Gerador de Palpites da Mega Sena")
+        self.root.geometry("400x300")  # Tamanho inicial da janela
+
+        self.label_num_jogos = tk.Label(root, text="Quantos jogos você quer gerar?")
+        self.label_num_jogos.pack()
+
+        self.entry_num_jogos = tk.Entry(root)
+        self.entry_num_jogos.pack()
+
+        self.btn_gerar = tk.Button(root, text="Gerar Palpites", command=self.exibir_palpite_gerado_wrapper)
+        self.btn_gerar.pack()
+
+        # Criação do Canvas e da Barra de Rolagem
+        self.canvas = tk.Canvas(root)
+        self.scrollbar = Scrollbar(root, orient="vertical", command=self.canvas.yview)
+        self.canvas.configure(yscrollcommand=self.scrollbar.set)
+        self.scrollbar.pack(side="right", fill="y")
+        self.canvas.pack(side="left", fill="both", expand=True)
+
+        # Frame interno ao Canvas
+        self.frame_palpites = tk.Frame(self.canvas)
+        self.canvas.create_window((0, 0), window=self.frame_palpites, anchor="nw")
+
+        self.frame_palpites.bind("<Configure>", lambda event: on_frame_configure(self.canvas, self.frame_palpites))
+
+    def exibir_palpite_gerado_wrapper(self):
+        exibir_palpite_gerado(self.entry_num_jogos, self.frame_palpites, gerar_palpite)
 
 
 def main():
-    exibir_mensagem('Palpite MEGA-SENA')
-
-    for jogo in range(num_jogos):
-        palpite = gerar_palpite()
-        exibir_palpite(palpite)
+    root = tk.Tk()
+    app = GeradorPalpitesMegaSena(root)
+    root.mainloop()
 
 
 if __name__ == "__main__":
