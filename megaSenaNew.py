@@ -7,6 +7,7 @@ class GeradorPalpitesMegaSena:
     def __init__(self, root):
         self.root = root
         self.root.title("Gerador de Palpites da Mega Sena")
+        self.root.iconbitmap("D:\\PYTHON_PROJETOS\\megaSenaNew\\image\\trevo.ico")
         self.root.geometry("400x320")  # Tamanho inicial da janela
 
         self.label_num_jogos = tk.Label(root, text="Quantos jogos você quer gerar?")
