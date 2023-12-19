@@ -1,18 +1,24 @@
 from random import *
 
-print('$' * 27)
-print('     Palpite MEGA-SENA     ')
-print('$' * 27)
+
+def texto(msg):
+    tam = len(msg) + 4
+    print('$' * tam)
+    print(f'  {msg}')
+    print('$' * tam)
+
 
 
 def contador(x):
-    print(f'Os números da sorte são: \n{x}')
-    print('$' * 30)
+    print(f'\n{x}')
+
 
 
 lista = []
 lista2 = []
 lista3 = []
+
+texto('Palpite MEGA-SENA')
 
 for i in sample(range(1, 61), 6):
     lista.append(i)
@@ -26,4 +32,3 @@ for i in sample(range(1, 61), 6):
     lista3.append(i)
 contador(sorted(lista3))
 
-print('\n$$$ Boa sorte $$$')
