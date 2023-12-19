@@ -12,5 +12,6 @@ e exibe as combinações de 6 números.
 <h1 align="center"> Prit do resultado do código: 
 
 
-![image](https://github.com/GustavoDuranBR/megaSenaNew/assets/81047389/e9928f82-bd0e-4513-aef8-50fc24f197f2)
+![image](https://github.com/GustavoDuranBR/megaSenaNew/assets/81047389/23bc7a58-1a46-48ef-b216-96d9f48e466f)
+
 </h1>
