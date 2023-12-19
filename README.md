@@ -8,8 +8,11 @@ Aceito  ajuda para melhorar o código.
 Tenho apenas 1  mês de apredizado em Python e esse código foi apenas para colocar algumas coisas vistas nas aulas em prática.
 
 Prit do resultado do código:
+
    Palpite MEGA-SENA
+
 Os números da sorte são: 
+
 [4, 32, 33, 42, 43, 45]
 
 Os números da sorte são: 
