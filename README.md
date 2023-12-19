@@ -10,16 +10,4 @@ Esse código realiza  o sorteio com a quantidade de jogos que o usuário determi
 e exibe as combinações de 6 números.
 
 Prit do resultado do código:
-
-   Palpite MEGA-SENA
-
-Os números da sorte são:
-[4, 32, 33, 42, 43, 45]
-
-Os números da sorte são: 
-[1, 16, 18, 35, 53, 57]
-
-Os números da sorte são: 
-[40, 41, 44, 55, 59, 60]
-
->>>
+![image](https://github.com/GustavoDuranBR/megaSenaNew/assets/81047389/e9928f82-bd0e-4513-aef8-50fc24f197f2)
