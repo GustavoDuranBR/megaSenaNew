@@ -9,7 +9,7 @@ Código que realiza sorteios de números "palpites" para jogar na Mega-Sena
 Esse código realiza  o sorteio com a quantidade de jogos que o usuário determina
 e exibe as combinações de 6 números.
 
-<h1 align="center"> Prit do resultado do código: 
+<h1 align="center"> Print do resultado do código: 
 
 
 ![image](https://github.com/GustavoDuranBR/megaSenaNew/assets/81047389/23bc7a58-1a46-48ef-b216-96d9f48e466f)
